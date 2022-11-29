@@ -1,11 +1,16 @@
 package be.intecbrussel.opdracht2;
 
+import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
 public class AnimalShelter {
 
-    private List<Animal> animals;
+    private List<Animal> animals = new ArrayList<>();
+
+    public void addAnimal(Animal animal) {
+        animals.add(animal);
+    }
     private int animalId;
 
     public AnimalShelter() {
@@ -60,11 +65,22 @@ public class AnimalShelter {
     }
 
     public Animal findOldestAnimal() {
-        return null;
+
+        animals.sort(Comparator.comparingInt(Animal::getAge).reversed());
+
+        return animals.get(0);
     }
 
     public int countAnimals() {
-        return 0;
+        return animals.size();
+    }
+
+    @Override
+    public String toString() {
+        return "AnimalShelter{" +
+                "animals=" + animals +
+                ", animalId=" + animalId +
+                '}';
     }
 
 }

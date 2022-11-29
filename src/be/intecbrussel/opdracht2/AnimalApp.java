@@ -1,17 +1,18 @@
 package be.intecbrussel.opdracht2;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 public class AnimalApp {
     public static void main(String[] args) {
 
-        List<Animal> newAnimals = new ArrayList<>();
-        newAnimals.add(new Monkey(true, 3, "Jef", 45, true));
+        Animal monkey01 = new Monkey(false, 3, "Jef01", 45, false);
+        Animal monkey02 = new Monkey(false, 4, "Jef02", 46, true);
 
-        Map<Disease, Boolean> booleanMap = new HashMap<>();
-        booleanMap.put(Disease.FLUE, true);
+        monkey01.vaccinateAnimal(Disease.FLUE);
+
+        AnimalShelter shelter = new AnimalShelter();
+        shelter.addAnimal(monkey01);
+        shelter.addAnimal(monkey02);
+
+        Animal oldest = shelter.findOldestAnimal();
+        System.out.println(oldest);
     }
 }
