@@ -6,9 +6,7 @@ import java.util.Map;
 public class Animal implements Vaccinateable, Treatable {
 
     private Map<Disease, Boolean> isVaccinated = new HashMap<>();
-
     private boolean isClean;
-
     private int age;
     private String name;
     private int animalNumber;
@@ -17,6 +15,10 @@ public class Animal implements Vaccinateable, Treatable {
     }
 
     public Animal(boolean isClean, int age, String name, int animalNumber) {
+        this.isVaccinated = new HashMap<>();
+        for (Disease disease : Disease.values()) {
+            this.isVaccinated.put(disease, false);
+        }
         this.isClean = isClean;
         this.age = age;
         this.name = name;
@@ -39,22 +41,6 @@ public class Animal implements Vaccinateable, Treatable {
         return animalNumber;
     }
 
-    public void setClean(boolean clean) {
-        isClean = clean;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public void setAnimalNumber(int animalNumber) {
-        this.animalNumber = animalNumber;
-    }
-
     @Override
     public void treatAnimal() {
         isClean = true;
@@ -63,6 +49,7 @@ public class Animal implements Vaccinateable, Treatable {
     @Override
     public void vaccinateAnimal(Disease nameOfDisease) {
         isVaccinated.put(nameOfDisease, true);
+        //System.out.println(isVaccinated);
     }
 
     @Override

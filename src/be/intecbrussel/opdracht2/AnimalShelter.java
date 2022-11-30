@@ -1,9 +1,7 @@
 package be.intecbrussel.opdracht2;
 
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
+import java.util.function.Predicate;
 
 public class AnimalShelter {
 
@@ -42,8 +40,12 @@ public class AnimalShelter {
 
     }
 
-    public void printAnimalsNotVaccinated(Disease nameDisease) {
-
+    public void printAnimalsNotVaccinatedForGivenDisease(Disease nameDisease) {
+        for (Animal myAnimal : animals) {
+            if (myAnimal.getIsVaccinated().get(nameDisease) == false) {
+                System.out.println(myAnimal);
+            }
+        }
     }
 
     public Optional<Animal> findAnimal(int number) {
