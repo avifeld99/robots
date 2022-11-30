@@ -11,4 +11,12 @@ public class Cat extends Animal {
         super(isClean, age, name, animalNumber);
         this.hasLongNails = hasLongNails;
     }
+
+    @Override
+    public String toString() {
+        return "Cat{" +
+                super.toString() +
+                "hasLongNails=" + hasLongNails +
+                '}';
+    }
 }

@@ -15,12 +15,8 @@ public class Monkey extends Animal {
     @Override
     public String toString() {
         return "Monkey{" +
+                super.toString() +
                 "isHyperActive=" + isHyperActive +
-                '}' +
-                "Animal{" +
-                ", age=" + super.getAge() +
-                ", name='" + super.getName() + '\'' +
-                ", animalNumber=" + super.getAnimalNumber() +
                 '}';
     }
 }

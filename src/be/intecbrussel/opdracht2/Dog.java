@@ -11,4 +11,12 @@ public class Dog extends Animal {
         super(isClean, age, name, animalNumber);
         this.hasFoulBreath = hasFoulBreath;
     }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+        super.toString() +
+                "hasFoulBreath=" + hasFoulBreath +
+                '}';
+    }
 }
