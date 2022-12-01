@@ -10,9 +10,9 @@ public class AnimalApp {
         Animal dog01 = new Dog(false, 8, "Jef03", 87, true);
         Animal cat01 = new Cat(false, 5, "Jef04", 98, true);
 
-        //System.out.println(monkey01.getIsVaccinated());
+        System.out.println(monkey01.getIsVaccinated());
         monkey01.vaccinateAnimal(Disease.FLUE);
-        //System.out.println(monkey01.getIsVaccinated());
+        System.out.println(monkey01.getIsVaccinated());
 
         AnimalShelter shelter = new AnimalShelter();
         shelter.addAnimal(monkey01);
@@ -20,7 +20,7 @@ public class AnimalApp {
         shelter.addAnimal(dog01);
         shelter.addAnimal(cat01);
 
-        shelter.printAnimalsNotVaccinatedForGivenDisease(Disease.FLUE);
+        //shelter.printAnimalsNotVaccinatedForGivenDisease(Disease.FLUE);
 
         /*Optional<Animal> findAn = shelter.findAnimal("dfgv");
         System.out.println(findAn);

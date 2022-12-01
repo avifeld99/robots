@@ -37,7 +37,6 @@ public class AnimalShelter {
     public void sortAnimalsByAge() {
         Comparator<Animal> sortByAge =
                 (animal1, animal2) -> Integer.compare(animal1.getAge(), animal2.getAge());
-
     }
 
     public void printAnimalsNotVaccinatedForGivenDisease(Disease nameDisease) {
