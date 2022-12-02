@@ -15,14 +15,18 @@ public class Animal implements Vaccinateable, Treatable {
     }
 
     public Animal(boolean isClean, int age, String name, int animalNumber) {
-        this.isVaccinated = new HashMap<>();
-        for (Disease disease : Disease.values()) {
-            this.isVaccinated.put(disease, false);
-        }
+        setIsVaccinated(isVaccinated);
         this.isClean = isClean;
         this.age = age;
         this.name = name;
         this.animalNumber = animalNumber;
+    }
+
+    public void setIsVaccinated(Map<Disease, Boolean> isVaccinated) {
+        for (Disease disease : Disease.values()) {
+            this.isVaccinated.put(disease, false);
+        }
+        this.isVaccinated = isVaccinated;
     }
 
     public Map<Disease, Boolean> getIsVaccinated() {

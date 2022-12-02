@@ -20,7 +20,7 @@ public class AnimalApp {
         shelter.addAnimal(dog01);
         shelter.addAnimal(cat01);
 
-        //shelter.printAnimalsNotVaccinatedForGivenDisease(Disease.FLUE);
+        shelter.printAnimalsNotVaccinatedForGivenDisease(Disease.FLUE);
 
         /*Optional<Animal> findAn = shelter.findAnimal("dfgv");
         System.out.println(findAn);
