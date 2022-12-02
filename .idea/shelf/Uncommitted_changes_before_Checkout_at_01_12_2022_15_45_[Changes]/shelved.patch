@@ -1,0 +1,46 @@
+Index: .idea/workspace.xml
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -1,13 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="06ffacf6-7e13-4ea6-9479-3564fdb3e125" name="Changes" comment="Roni pushed by Avi completed ;)">
++    <list default="true" id="06ffacf6-7e13-4ea6-9479-3564fdb3e125" name="Changes" comment="Roni pushed by Avi completed ;)&#10;final touches">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/Animal.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/AnimalApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/AnimalApp.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/AnimalShelter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/AnimalShelter.class" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalApp.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalShelter.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -93,7 +88,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1669820464315</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="Roni pushed by Avi completed ;)&#10;final touches">
++      <created>1669887984242</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1669887984242</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -111,6 +113,7 @@
+     <MESSAGE value="new commit" />
+     <MESSAGE value="Roni pushed by Avi" />
+     <MESSAGE value="Roni pushed by Avi completed ;)" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Roni pushed by Avi completed ;)" />
++    <MESSAGE value="Roni pushed by Avi completed ;)&#10;final touches" />
++    <option name="LAST_COMMIT_MESSAGE" value="Roni pushed by Avi completed ;)&#10;final touches" />
+   </component>
+ </project>
+\ No newline at end of file
