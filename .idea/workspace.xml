@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ffacf6-7e13-4ea6-9479-3564fdb3e125" name="Changes" comment="Roni pushed by Avi completed ;)&#10;final touches">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/opdracht_robots/be/intecbrussel/opdracht2/Animal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_12_2022_15_45__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_12_2022_15_45__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/intecbrussel/opdracht2/AnimalShelter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

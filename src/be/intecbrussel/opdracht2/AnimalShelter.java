@@ -41,7 +41,7 @@ public class AnimalShelter {
 
     public void printAnimalsNotVaccinatedForGivenDisease(Disease nameDisease) {
         for (Animal myAnimal : animals) {
-            if (myAnimal.getIsVaccinated().get(nameDisease) == false) {
+            if (!myAnimal.getIsVaccinated().get(nameDisease)) {
                 System.out.println(myAnimal);
             }
         }
